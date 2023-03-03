@@ -3,7 +3,21 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/*Prueba slideshow. */
+function cambiarImagen() {
+	var imagenes = document.querySelector("#slideshow img");
+	var indice = 0;
+	setInterval(function() {
+	  imagenes[indice].classList.remove("activo");
+	  indice++;
+	  if (indice === imagenes.length) {
+		indice = 0;
+	  }
+	  imagenes[indice].classList.add("activo");
+	}, 3000);
+  }
 
+  
 (function($) {
 
 	var $window = $(window),

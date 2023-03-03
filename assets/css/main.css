@@ -2193,14 +2193,15 @@ input, select, textarea {
 			filter: grayscale(100%);
 		}
 		.logoEsquina{
-			height: 30px;
-			margin: 0em 0em -3.7em 0;
+			height: 45px;
+			padding-left: 0;
+	
 		}
 		.logoNav{
 			height: 48px;
-			padding-top: 10px;
+			margin: -9px 0;
 		}
-		hr{
+		hr{	
 			height: 15px;
 		}
 		.smallText{
@@ -2208,3 +2209,15 @@ input, select, textarea {
 			font-size: 0.9em !important;
 			line-height: 1.2em;
 		}
+		#superposicion {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 130vh;
+			background-image: url("images/cuadriculas.jpg");
+			background-size: 20%;
+			background-repeat: repeat;
+			opacity: 0.1;
+		}
+		  
