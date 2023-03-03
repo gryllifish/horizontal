@@ -2219,7 +2219,7 @@ input, select, textarea {
 			left: 0;
 			width: 100vw;
 			height: 130vh;
-			background-image: url("images/cuadriculas.jpg");
+			background-image: url("images/fondo.jpg");
 			background-size: 20%;
 			background-repeat: repeat;
 			opacity: 0.1;
@@ -2229,5 +2229,5 @@ input, select, textarea {
 		}
 		.seccionHeader{
 			padding: 0 0 2.4em 0;
-			border-bottom: 3px solid black;;
+			border-bottom: 1px solid #363636;
 		}
