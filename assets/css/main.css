@@ -2296,10 +2296,13 @@ body.is-preload #wrapper {
 #footer .copyright {
 	list-style: none;
 	padding-left: 0;
+	display: flex;
+	align-items: center;
 }
 
 #footer .copyright li {
-	display: inline-block;
+	display: flex;
+	align-items: center;
 	padding-left: 1em;
 	margin-left: 1em;
 	border-left: solid 1px rgba(255, 255, 255, 0.25);
@@ -2351,6 +2354,19 @@ hr {
 }
 
 .contactLine {
-	display:inline;
+	display:flex;
 	flex-direction: row;
+	margin-bottom:1em;
+	align-items: center;
+}
+.contactLine a {
+	text-decoration: none;
+}
+.contactLine i {
+	margin-right: 25px;
+}
+.contactLine h3:hover{
+	transition: 300ms;
+	color: black;
+	font-weight: 500;
 }
