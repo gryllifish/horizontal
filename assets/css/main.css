@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url("fontawesome-all.min.css");
 
 /*
@@ -1325,13 +1327,15 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Jost', sans-serif;
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
-
+	.smallText{
+		font-family: 'Roboto', sans-serif;;
+	}
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
@@ -1533,7 +1537,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #413f3f;
+			color: #646262;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2210,7 +2214,7 @@ input, select, textarea {
 		}
 		.smallText{
 			padding-top: 10px;
-			font-size: 0.9em !important;
+			font-size: 0.8em !important;
 			line-height: 1.2em;
 		}
 		#superposicion {
