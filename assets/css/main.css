@@ -2202,7 +2202,11 @@ input, select, textarea {
 			margin: -9px 0;
 		}
 		hr{	
-			height: 15px;
+			border: none;
+			height: 3px;
+			background-color: #252525;
+			margin: 20px 0;
+			padding: 0;
 		}
 		.smallText{
 			padding-top: 10px;
@@ -2220,4 +2224,10 @@ input, select, textarea {
 			background-repeat: repeat;
 			opacity: 0.1;
 		}
-		  
+		.jumplink.pic{
+			border-left: 3px solid black;	
+		}
+		.seccionHeader{
+			padding: 0 0 2.4em 0;
+			border-bottom: 3px solid black;;
+		}
