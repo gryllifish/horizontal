@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-color: #000;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -2006,7 +2006,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 0;
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
-					width: 17em;
+					width: 20em;
 					height: 100%;
 				}
 
@@ -2091,14 +2091,14 @@ input, select, textarea {
 				}
 
 					#main > .panel.intro header h1 {
-						line-height: 1.25em;
+					
 						margin-bottom: 0;
 					}
 
 					#main > .panel.intro header p {
 						letter-spacing: -0.015em;
-						font-size: 1.25em;
-						margin: 0.25em 0 0 0;
+						font-size: 1.5em;
+						margin: 0em 0 0 0;
 					}
 
 				@media screen and (max-width: 980px) {
@@ -2188,4 +2188,23 @@ input, select, textarea {
 				margin-left: 0.5em;
 			}
 
+		}
+		#casaHome{
+			filter: grayscale(100%);
+		}
+		.logoEsquina{
+			height: 30px;
+			margin: 0em 0em -3.7em 0;
+		}
+		.logoNav{
+			height: 48px;
+			padding-top: 10px;
+		}
+		hr{
+			height: 15px;
+		}
+		.smallText{
+			padding-top: 10px;
+			font-size: 0.9em !important;
+			line-height: 1.2em;
 		}
