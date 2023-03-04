@@ -2404,7 +2404,11 @@ hr {
 .contactLine i {
 	margin-right: 25px;
 }
-.contactLine h3:hover{
+.contactLine p {
+	color:#444444;
+	font-size: 1em !important;
+}
+.contactLine p:hover{
 	transition: 300ms;
 	color: black;
 	font-weight: 500;
